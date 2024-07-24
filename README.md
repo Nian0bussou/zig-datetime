@@ -1,9 +1,5 @@
 # Zig Datetime
 
-[![actions](https://github.com/frmdstryr/zig-datetime/actions/workflows/ci.yml/badge.svg)](https://github.com/frmdstryr/zig-datetime/actions)
-[![codecov](https://codecov.io/gh/frmdstryr/zig-datetime/branch/master/graph/badge.svg)](https://codecov.io/gh/frmdstryr/zig-datetime)
-
-
 A datetime module for Zig with an api similar to python's Arrow.
 
 > NOTE: This does not implement DST.
