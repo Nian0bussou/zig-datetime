@@ -21,5 +21,8 @@ defer allocator.free(now_str);
 std.debug.warn("The time is now: {}\n", .{now_str});
 // The time is now: Fri, 20 Dec 2019 22:03:02 UTC
 
+//
+const now = datetime.Datetime.now();
+std.debug.print("{d}, {d}, {d}\n", .{ now.date.year, now.date.month, now.date.day });
 
 ```
